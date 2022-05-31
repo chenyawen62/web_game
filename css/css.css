@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{ margin:0; padding:0;font-family: Tahoma, Geneva, sans-serif;	}
+.m10{	margin-top:10px;  padding-bottom:100px;	width: 500px;}
+.center{ text-align:center;}
+a, a:link, a:visited { 	color: #7f0d0d;text-decoration:none; }
+a:hover {text-decoration: underline;}
+img {border: none; }
+#cont{ width:980px; height:1000px; margin:auto; }
+#head{ width:980px; height:350px; margin:auto;  }
+#main{ width:980px; height:auto;background:rgba(255,255,255,0.9);margin:auto; margin-bottom:30px;}
+.main_im{width:400px; height:250px; float:left; margin:20px 60px 20px 30px;}
+.detail{ font-size:18px; color:#333333; text-align:center;}
+#D_main{width:980px;height:auto;background:rgba(255,255,255,0.9); margin:50px auto;}
+#D_main_im{ width:400px; height:auto;  margin:30px auto;}
+#D_main_im_title{ font-size:18px;padding-top:50px; font-weight:bold; color:#000000;}
+.nav{width:920px; height:40px; background-color:#CCCCCC; margin:10px auto; padding-top:20px; padding-left:60px;}
+.nav a{ font-size:20px; margin:10px; margin-right:80px;}
+.nav a:hover{ color:#990000}
+
+.nav2{width:980px; height:30px; background-color:#ddd; margin:5px auto; padding-top:10px; text-align:center;}
+.nav2 a{ font-size:18px; margin:10px; color:#222; font-weight:bold;}
+.nav2 a:hover{ color:#990000; text-decoration:none;}
+
+
+.mw{ width:960px; height:30px;background:rgba(99,0,0,0.8); margin:10px auto;  margin-bottom:20px; text-align:center; font-size:24px; color:#FFFFFF; padding:10px;}
+.i_p{ width:760px; height:auto; padding:10px; margin:auto; font-size:16px; color:333;  line-height:28px;}
+ *{  
+            margin: 0px;  
+            padding: 0px;  
+        }  
+        video{  
+            position: fixed;  
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+            /*加滤镜*/
+            /*filter: blur(15px); //背景模糊设置 */
+            /*-webkit-filter: grayscale(100%);*/  
+            /*filter:grayscale(100%); //背景灰度设置*/  
+            z-index:-11
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        } 
